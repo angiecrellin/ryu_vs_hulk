@@ -25,9 +25,10 @@ $(document).ready(function(){
 		$('.ryu-throwing').hide();
 		$('.ryu-ready').show();
 		
-	})
-		.keydown(function(e) {
-			if(e.keyCode == 88) {
+	});
+		$(document).keydown(function(e) {
+			if (e.keyCode == 88) {
+				$('.ryu-ready').hide();
 				$('.ryu-still').hide();
 				$('.ryu-cool').show();
 			}
