@@ -20,7 +20,7 @@ body {
 }
 
 .ryu-hulk {
-	filter: hue-rotate(90deg); 
+	-webkit-filter: hue-rotate(90deg);
 	float: right;
 	width: 659px;
 	height: 494px;
@@ -30,7 +30,7 @@ body {
     transform: scaleX(-1);
     filter: "FlipH";
     -ms-filter: "FlipH";
-  	filter: hue-rotate(90deg);
+  	
 }
 
 .ryu-still, .ryu-ready, .ryu-throwing, .ryu-cool, .ryu-hulk-still, .ryu-hulk-ready, .ryu-hulk-throwing, .ryu-hulk-cool {

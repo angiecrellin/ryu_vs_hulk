@@ -16,11 +16,11 @@ $(document).ready(function(){
 		$('.ryu-ready').hide();
 		$('.ryu-throwing').show();
 		$('.hadouken').finish().show().animate(
-			{'right': '1020px'},
+			{'left': '1020px'},
 			500,
 			function(){
 				$(this).hide();
-				$(this).css('right', '520');
+				$(this).css('left', '520px');
 			});
 	})	
 
@@ -66,7 +66,7 @@ $(document).ready(function(){
 			500,
 			function(){
 				$(this).hide();
-				$(this).css('left', '520');
+				$(this).css('left', '520px');
 			});
 	})	
 
